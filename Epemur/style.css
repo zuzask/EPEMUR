@@ -13,6 +13,7 @@ h2.logo{
     text-decoration:none;
     font-size: 25pt;
     display: inline-block;
+    
 }
 
 h2.logo>a{
@@ -39,9 +40,8 @@ h2.logo>a{
   text-decoration: none;
 }
 
-.menu-item>a:focus{
-  border-bottom: 1px solid;
-  background: beige;
+.menu-item>a:hover{
+  background-color: beige;
 }
 
 
