@@ -1,12 +1,15 @@
+/*Pone todos los enlaces de color negro*/
 a {
     color: black;
 }
 
+/*Pone margin izquierdo y derecho al div "container"*/
 .container{
     margin-left: 50px;
     margin-right: 50px;
 }
 
+/*Le doy margenes, le quito la decoracion, le aplico un tamaño a la fuente y con el display, establezco un ancho y un alto*/
 h2.logo{
     margin-left: 35px;
     margin-top: 40px;
@@ -15,18 +18,18 @@ h2.logo{
     display: inline-block;
     
 }
-
+*/Quita la decoracion del texto a los enlaces del h2*/
 h2.logo>a{
     text-decoration:none;
-   
+
+/*Se pone a la derecha*/
 }
 .menu{
     display: inline-block;
-    float: right;
-    
-    
+    float: right;  
 }
 
+/*Alineo el texto a la aderecha, le doy un tamaño a la fuente, y negrita*/
 .menu-item{
     display: inline-block;
     text-align: right;
@@ -35,46 +38,50 @@ h2.logo>a{
     margin-top: 30px;
     font-weight: 600;
 }
-
+/*Quito la decoracion a los enlaces del menu*/
 .menu-item>a{
   text-decoration: none;
 }
 
+/*Le pongo un fondo a los enlaces del menu*/
 .menu-item>a:hover{
   background-color: beige;
 }
 
-
+/*Le doy estilo al header*/
 header{
     background-color: #4b8f42;
     height: 110px; 
     width: 100%;
     position: fixed;
-    top: 0%;
-    
+    top: 0%;    
 }
 
+/*Le doy un ancho al nav*/
 nav{
     display: inline-block;
-    width: 98%
-    
+    width: 98%    
 }
 
+/*Le quita los puntos de la lista*/
 header ul{
     list-style-type: none;
 }
 
+/*Para que el header acompañe*/
 .sticky {
     position: fixed;
     top: 0;
     width: 100%
 }
 
+/*Aplico un tamaño a la fuente del texto*/
 .texto{
   padding: 0px 200px;
   FONT-SIZE: 15pt;
 }
 
+/*Le pongo un borde a la imagen*/
 img.imagen1{
     width: calc(100% - 10px) ; 
     height: 500px; 
@@ -86,6 +93,7 @@ img.imagen1{
     margin-top: 110px;
 }
 
+
 .textoInicio{
   FONT-SIZE: 15pt; 
   margin: 40px 0px;
@@ -96,11 +104,14 @@ img.imagen1{
   flex: 1;
 }
 
+/*Le pongo color al fondo del body*/
 body{
     cursor:default;
     margin: 0;
+    background-color: beige;
 }
 
+/*Le pongo color al fondo del header*/
 .footer{
     background-color: #4b8f42;
     width: 100%;
@@ -118,11 +129,6 @@ body{
     
 }
 
-
-body{
-    background-color: beige;
-}
-
 .imagenCuadro{
 
     width: 350px; 
@@ -137,6 +143,7 @@ body{
 
 }
 
+/*Le aplico un borde y un tamaño*/
 .animal1{
     border-style: solid;
     border-top-width: 3px;
@@ -150,11 +157,13 @@ body{
     height: 575px;
 }
 
+/*Hace que la carta al pasar el raton sobresalga y le ponga una sombra*/
 .animal1:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
 }
 
+/*Le doy color al boton de la carta, un borde*/
 .botonAnimal{
     
     background-color: #eee;
@@ -185,8 +194,6 @@ body{
 .osoPolar2{
     width: 450px; 
     height: 250px;
-   
-    
 }
 
 .osoPolar3{
@@ -204,7 +211,7 @@ body{
     
   }
   
-  
+  /*De aqui para abajo es del formulario, que me lo copié de internet*/
   .contact_form{  
     width: 460px; 
     height: auto;
